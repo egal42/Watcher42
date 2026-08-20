@@ -2,14 +2,18 @@
 
 **Fast Pi Node Watcher for Windows**
 
-Watcher42 is a lightweight, read-only monitoring tool for Pi Node.  
+Watcher42 is a lightweight, read-only monitoring tool for Pi Node.
 It runs as a PowerShell script on the Windows host and reads information from Docker, the Pi Node container and the local Horizon API.
 
 ## What it shows
 
 - Docker and Pi Node container status
+- Network connectivity status
 - Docker image
-- Core and Protocol version
+- Core version
+- Horizon version
+- Active network protocol version
+- Supported protocol version
 - Consensus state and blockchain sync
 - Local and network block
 - Blocks behind
@@ -57,9 +61,15 @@ It does **not** restart Docker or Pi Node, change Pi Node settings, modify Docke
 
 ## Current version
 
-**Watcher42 v1.1**
+**Watcher42 v1.2**
 
 Tested on Windows 10 and Windows 11.
+
+## License
+
+Watcher42 is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+You are free to use, study, modify and redistribute Watcher42 under the terms of the GPL-3.0 license.
 
 ---
 
